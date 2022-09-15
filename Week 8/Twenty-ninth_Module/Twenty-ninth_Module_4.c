@@ -16,9 +16,7 @@ int main()
     for (int value = 'a'; value <= 'z'; value++)
     {
         if (counter[value - 'a'] > 0)
-        {
             printf("value -> %c count -> %d\n", value, counter[value - 'a']);
-        }
     }
     return 0;
 }

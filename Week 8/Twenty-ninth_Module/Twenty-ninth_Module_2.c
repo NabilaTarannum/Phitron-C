@@ -8,9 +8,7 @@ int main()
     // scanf("%s", ar);
 
     for (int i = 0; i < 16; i++)
-    {
         printf("%c", ar[i]);
-    }
 
     // ar[2] = '\0';
 

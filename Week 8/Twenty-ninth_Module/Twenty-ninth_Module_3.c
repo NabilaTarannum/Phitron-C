@@ -18,9 +18,7 @@ int main()
 
     // int index = 0;
     // for (index = 0; ar[index] != '\0'; index++)
-    // {
     //     printf("%d", index);
-    // }
     // printf("%d", index);
 
     int length = strlen(ar);
