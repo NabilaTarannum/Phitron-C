@@ -9,14 +9,11 @@ int main() {
         scanf("%d", &mark[i]);
     }
 
-    // for (int i = 0; i < 3; i++) {
+    // for (int i = 0; i < 3; i++)
     //     mark[i] += 3;
-    // }
 
     for (int i = 0; i < 3; i++)
-    {
-        printf("Student %d got %d marks\n", i + 1, mark[i]);
-    } */
+        printf("Student %d got %d marks\n", i + 1, mark[i]); */
     int students;
     printf("Enter number of students\n");
     scanf("%d", &students);
@@ -27,9 +24,8 @@ int main() {
         scanf("%d", &mark[i]);
     }
 
-    for (int i = 0; i < students; i++) {
+    for (int i = 0; i < students; i++)
         printf("Student %d got %d marks\n", i + 1, mark[i]);
-    }
 
     return 0;
 }

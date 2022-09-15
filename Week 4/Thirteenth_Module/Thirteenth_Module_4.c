@@ -6,9 +6,8 @@ int main() {
     char str2[10];
 
     int len = strlen(str);
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++)
         str2[i] = str[i];
-    }
 
     printf("%s ", str2); */
 
@@ -17,9 +16,7 @@ int main() {
 
     int len = strlen(str);
     for (int i = 0; i < len; i++)
-    {
         str2[i] = str[i];
-    }
     str2[len] = '\0';
 
     printf("%s ", str2); */

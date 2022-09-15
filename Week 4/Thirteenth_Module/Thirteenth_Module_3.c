@@ -8,9 +8,8 @@ int main() {
     printf("%d\n", sz);
 
     int idx = 0;
-    while (str[idx] != '\0') {
+    while (str[idx] != '\0')
         idx++;
-    }
     printf("Lenth = %d\n", idx); */
 
     char str[100] = "Hello World";

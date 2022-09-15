@@ -6,9 +6,8 @@ int main() {
     int sz = sizeof(st) / sizeof(st[0]);
     printf("%d\n", sz);
 
-    for (int i = 0; i < sz; i++) {
-        printf("%d -> %c (ASCII = %d)\n", i, st[i], st[i]);
-    } */
+    for (int i = 0; i < sz; i++)
+        printf("%d -> %c (ASCII = %d)\n", i, st[i], st[i]); */
 
     /* char st[] = "This is on \n two lines";
 
@@ -16,9 +15,7 @@ int main() {
     printf("%d\n", sz);
 
     for (int i = 0; i < sz; i++)
-    {
-        printf("%d -> %c (ASCII = %d)\n", i, st[i], st[i]);
-    } */
+        printf("%d -> %c (ASCII = %d)\n", i, st[i], st[i]); */
 
     char st[] = "This is a string.\0";
 

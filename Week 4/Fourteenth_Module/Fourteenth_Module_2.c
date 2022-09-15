@@ -14,9 +14,8 @@ int main() {
 
     int ans;
     for (int i = 0; i <= 9; i++) {
-        if (freq[i] == 0) {
+        if (freq[i] == 0)
             ans = i;
-        }
     }
     printf("%d\n", ans);
     return 0;

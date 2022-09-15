@@ -5,4 +5,4 @@ int main()
     return 0;
 }
 
-/* Mid Term exam 03 . Have no code . */
+/* Mid Term exam 03 . */

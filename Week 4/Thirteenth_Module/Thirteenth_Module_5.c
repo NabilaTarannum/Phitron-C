@@ -10,13 +10,11 @@ int main() {
     int lenc = lena + lenb;
     char c[lenc+1];
 
-    for (int i = 0; i < lena; i++) {
+    for (int i = 0; i < lena; i++)
         c[i] = a[i];
-    }
 
-    for (int i = 0; i < lenb; i++) {
+    for (int i = 0; i < lenb; i++)
         c[lena + i] = b[i];
-    }
 
     c[lena + lenb] = '\0';
     printf("%s", c); */
@@ -27,9 +25,8 @@ int main() {
     int lena = strlen(a);
     int lenb = strlen(b);
 
-    for (int i = 0; i < lenb; i++) {
+    for (int i = 0; i < lenb; i++)
         a[lena + i] = b[i];
-    }
     a[lena + lenb] = '\0';
     printf("%s", a); */
 
