@@ -67,9 +67,7 @@ int getRoot(double a, double b, double c, double *root1, double *root2)
 {
     double d = b * b - 4 * a * c;
     if (d < 0)
-    {
         return 0;
-    }
     else if (d == 0)
     {
         *root1 = (-b) / (2 * a);

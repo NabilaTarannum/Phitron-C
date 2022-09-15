@@ -13,11 +13,9 @@ int main() {
     // printf("%p %lld %d\n", ch, ch, *ch);
     // printf("%ld", ch - first);
 
-    if (!ch) {
+    if (!ch) 
         printf("Found null. No occurrence");
-    }
-    else {
+    else 
         printf("Found");
-    }
     return 0;
 }

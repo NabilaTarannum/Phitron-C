@@ -26,18 +26,15 @@ int main() {
     int a[n];
 
     for (int i = 0; i < n; i++)
-    {
         scanf("%d", &a[i]);
-    }
 
     int k;
     scanf("%d", &k);
     // Rotate(n, a);
     Rotate_by_k(n, a, k);
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
         printf("%d ", a[i]);
-    }
     return 0;
 }
 

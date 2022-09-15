@@ -2,19 +2,15 @@
 
 int getMin(int a, int b) {
     /* int temp;
-    if (a < b) {
+    if (a < b) 
         temp = a;
-    }
-    else {
+    else 
         temp = b;
-    }
     return temp; */
-    if (a < b) {
+    if (a < b) 
         return a;
-    }
-    else {
+    else 
         return b;
-    }
 }
 
 int main() {
@@ -22,20 +18,16 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
 
     // int temp;
-    // if (a < b) {
+    // if (a < b)
     //     temp = a;
-    // }
-    // else {
+    // else
     //     temp = b;
-    // }
 
     // int temp2;
-    // if (temp < c) {
+    // if (temp < c)
     //     temp2 = temp;
-    // }
-    // else {
+    // else
     //     temp2 = c;
-    // }
 
     int temp = getMin(a, b);
     int temp2 = getMin(temp, c);
@@ -45,14 +37,12 @@ int main() {
     scanf("%d", &n);
 
     int a[n];
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
         scanf("%d", &a[i]);
-    }
 
     int ans = a[0];
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
         ans = getMin(ans, a[i]);
-    }
     printf("%d", ans);
     return 0;
 }
