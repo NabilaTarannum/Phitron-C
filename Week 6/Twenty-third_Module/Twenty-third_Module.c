@@ -5,4 +5,4 @@ int main()
     return 0;
 }
 
-/* Theory Exam 5 . Have no code . */
+/* Theory Exam 5 */
