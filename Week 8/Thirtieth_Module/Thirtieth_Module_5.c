@@ -14,9 +14,7 @@ int main()
     {
         char value = a[i];
         if (value != ' ')
-        {
             word = true;
-        }
         if (value == ' ')
         {
             if (word == true)
@@ -27,9 +25,7 @@ int main()
         }
     }
     if (word == true)
-    {
         ans++;
-    }
     printf("%d\n", ans);
     return 0;
 }
